@@ -12,6 +12,6 @@ $spacers: (
     margin-left: ($spacer * 3) !important;
   }
 
-body {
-  background-color: lightgray;
+  mat-form-field {
+    width: 100%;
 }

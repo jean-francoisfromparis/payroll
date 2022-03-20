@@ -1,0 +1,38 @@
+{
+  "employees": [
+    {
+      "firstname": "Marco",
+      "name": "doe",
+      "email": "j@doe.dr",
+      "role": "USER",
+      "hired_at": "2022-03-17T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "firstname": "Mathieu",
+      "name": "Beertrand",
+      "email": "mathieu@beertrand.de",
+      "role": "USER",
+      "hired_at": "2022-03-23T23:00:00.000Z",
+      "id": 2
+    },
+    {
+      "firstname": "Apple",
+      "name": "Summer",
+      "email": "apple@sum.com",
+      "role": "USER",
+      "hired_at": "2022-03-22T23:00:00.000Z",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
