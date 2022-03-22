@@ -27,7 +27,10 @@ actionButton : string ="Enregistrer"
       firstname : ['', [Validators.required]],
       name : ['', [Validators.required]],
       email : ['', [Validators.required, Validators.email]],
-      role : ['', [Validators.required]],
+      role: ['', [Validators.required]],
+      department : ['', [Validators.required]],
+      wage:['', [Validators.required]],
+      sales_objective:['', [Validators.required]],
       hired_at : ['', [Validators.required]],
     });
 
@@ -37,6 +40,9 @@ actionButton : string ="Enregistrer"
       this.employeeForm.controls['name'].setValue(this.editData.name);
       this.employeeForm.controls['email'].setValue(this.editData.email);
       this.employeeForm.controls['role'].setValue(this.editData.role);
+      this.employeeForm.controls['department'].setValue(this.editData.department);
+      this.employeeForm.controls['wage'].setValue(this.editData.wage);
+      this.employeeForm.controls['sales_objective'].setValue(this.editData.sales_objective);
       this.employeeForm.controls['hired_at'].setValue(this.editData.hired_at);
     }
   }

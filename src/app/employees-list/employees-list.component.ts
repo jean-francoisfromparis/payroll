@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
   styleUrls: ['./employees-list.component.scss']
 })
 export class EmployeesListComponent implements OnInit {
-  displayedColumns: string[] = ['firstname', 'name', 'email', 'role', 'hired_at', 'edit', 'delete'];
+  displayedColumns: string[] = ['firstname', 'name', 'email', 'department', 'wage', 'sales_objective','role', 'hired_at', 'edit', 'delete'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
