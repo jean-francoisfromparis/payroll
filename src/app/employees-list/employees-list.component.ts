@@ -53,6 +53,8 @@ export class EmployeesListComponent implements OnInit {
     })
   }
 
+
+
   deleteEmployee(id: number) {
     this.api.deleteEmployee(id).subscribe({
       next: (response) => {

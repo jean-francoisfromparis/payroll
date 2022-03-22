@@ -67,7 +67,7 @@ th {
   td.mat-cell:first-of-type {
     padding-left: 0;
   }
-
+//think to rename all the column in case of changes
   td:nth-of-type(1):before {
     content: "Prénom";
     float: left;
