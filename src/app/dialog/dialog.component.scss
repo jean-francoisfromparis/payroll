@@ -15,3 +15,20 @@ $spacers: (
   mat-form-field {
     width: 100%;
 }
+
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+
+.suffix{
+  font-size: 1em;
+}
